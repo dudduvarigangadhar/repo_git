@@ -1,0 +1,154 @@
+.repo-bg-container {
+  min-height: 100vh;
+  background-color: #0f172a;
+  padding: 10px;
+}
+
+.repo-main-heading {
+  color: #f8fafc;
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .repo-main-heading {
+    font-size: 25px;
+    margin-left: 14%;
+  }
+}
+
+.repos-list-item {
+  list-style-type: none;
+
+  background-color: #ffffff0f;
+
+  height: 250px;
+  border-radius: 8px;
+  margin-left: 10px;
+  width: 1140px;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .repos-list-item {
+    width: 330px;
+    margin-bottom: 30px;
+    text-decoration: none;
+  }
+}
+
+.repo-heading {
+  color: #3b82f6;
+  font-size: 24px;
+  line-height: 32px;
+  text-decoration: none;
+  /* padding: 20px; */
+}
+
+@media screen and (max-width: 768px) {
+  .repo-heading {
+    text-decoration: none;
+  }
+}
+
+.repo-description {
+  color: #f8fafc;
+}
+@media screen and (max-width: 768px) {
+  .repo-description {
+    width: 220px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+  }
+}
+
+.repo-list-item-container {
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .repos-list-item {
+    margin-left: 7%;
+  }
+}
+
+.repo-item-details-failure {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  height: 100vh;
+  text-align: center;
+}
+
+.repo-item-details-failure-inner-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-view-message {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.language-name {
+  font-weight: bold;
+  width: 60px;
+}
+
+.language-container {
+  width: 90px;
+  border-radius: 10px;
+}
+
+.languages-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.goto-home-button {
+  background-color: #ffffff;
+  border: none;
+  color: #414038;
+  width: 120px;
+  height: 30px;
+}
+
+.noDataFoundContainer {
+  height: 90vh;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nodata-heading {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  text-align: center;
+  font-weight: 400;
+}
+
+.nodata-description {
+  font-family: 'Roboto';
+  text-align: center;
+  margin-top: 0px;
+  color: rgba(248, 250, 252, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .nodata-description {
+    width: 300px;
+  }
+
+  .repo-no-data-img {
+    width: 300px;
+  }
+}
